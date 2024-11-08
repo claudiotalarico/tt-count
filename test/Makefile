@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = clkdiv.v counter.v tiny.v project.v
+PROJECT_SOURCES = project.v tiny.v clkdiv.v counter.v
 
 ifneq ($(GATES),yes)
 
