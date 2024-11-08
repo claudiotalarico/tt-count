@@ -3,7 +3,7 @@ project:
   title:        "4-bit up/down binary counter"      # Project title
   author:       "claudiotalarico"      # Your name
   discord:      "claudiotalarico"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "4-bit up/down binary counter with enable and test mode "      # One line description of what your project does
+  description:  "4-bit up/down binary counter with enable and test mode"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     50000000   # Clock frequency in Hz (or 0 if not applicable)
 
