@@ -31,6 +31,6 @@ module tt_um_claudiotalarico_counter (
  assign uio_oe  = 0;
 
  // List all unused inputs to prevent warnings
- wire _unused = &{ena , uio_in, ui_in[7], ui_in[6], ui_in[5], ui_in[4], ui_in[3],1'b0};
+wire _unused = &{ena , uio_in ,1'b0};
 
 endmodule
